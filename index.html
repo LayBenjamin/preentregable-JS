@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Ventas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Simulador de Ventas</h1>
+    
+    <div class="product-list">
+        <h2>Productos</h2>
+        <div class="product" data-name="Producto A" data-price="100">
+            <h3>Producto A</h3>
+            <p>Precio: $100</p>
+            <button class="add-to-cart">Agregar al Carrito</button>
+        </div>
+        <div class="product" data-name="Producto B" data-price="150">
+            <h3>Producto B</h3>
+            <p>Precio: $150</p>
+            <button class="add-to-cart">Agregar al Carrito</button>
+        </div>
+        <!-- Agrega más productos según sea necesario -->
+    </div>
+
+    <div class="cart">
+        <h2>Carrito</h2>
+        <ul id="cart-items"></ul>
+        <p id="total-price">Total: $0</p>
+        <button id="checkout">Pagar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
